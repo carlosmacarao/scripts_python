@@ -1,7 +1,7 @@
 from datetime import date
 
 def elif_test():
-    hora = date.today().strftime()
+    hora = 10
 
     print(f'Agora sÃo {hora} horas.')
 

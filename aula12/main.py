@@ -1,6 +1,7 @@
+from datetime import date
 
 def elif_test():
-    hora = 119
+    hora = date.today().strftime()
 
     print(f'Agora sÃo {hora} horas.')
 
@@ -9,4 +10,6 @@ def elif_test():
     elif hora >= 12 and hora < 18:
         print('Boa tarde!')   
     else:
-        print('Boa noite!')     
+        print('Boa noite!')   
+
+elif_test()          
